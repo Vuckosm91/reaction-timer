@@ -13,11 +13,11 @@ data() {
 },
 mounted() {
     if (this.score < 250) {
-        this.rank = "Ninja Fingers"
+        this.rank = "Fast as lightning"
     } else if (this.score <400 ) 
     this.rank = "Rapid Reflexes"
     else {
-        this.rank = "Snail pace..."
+        this.rank = "Needs more coffee..."
     }
 }
 }
